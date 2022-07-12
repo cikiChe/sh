@@ -59,8 +59,6 @@ server {
         set \$path_info \"\";
         set \$real_script_name \$fastcgi_script_name;
 
-        #rewrite ^\/Payment\/Noity\/(.*) index.php?_apiname=Payment.Noity.\$1 last;
-
         if (\$fastcgi_script_name ~ \"${regs}\$\") {
             set \$real_script_name \$1;
             set \$path_info \$2;
