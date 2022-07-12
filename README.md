@@ -1,5 +1,5 @@
 # sh
-this  is script with linux what can be to autocompate generate nginx's conf | 一键生成nginx配置脚本
+this  is script with linux what can be to autocompate generate nginx's conf | 一键生成nginx多文件配置脚本
  
  # 使用环境
  Linux
